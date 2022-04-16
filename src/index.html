@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>K/DA Champions</title>
+    <link rel="shortcut icon" href="../static/images/icon.png" type="image/png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XF2XTWEZ15"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-XF2XTWEZ15');
+    </script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="champions">
+        <ul>
+            <li id="ahri-selector" class="selector ahri-selector">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="../static/images/ahri-kda-mobile.jpg">
+                    <img src="../static/images/ahri-kda.jpg" alt="Ahri K/DA"  class="cover">
+                </picture>
+                <p class="name">Ahri</p>
+            </li>
+            <li id="akali-selector" class="selector akali-selector">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="../static/images/akali-kda-mobile.jpg">
+                    <img src="../static/images/akali-kda.jpg" alt="Akali K/DA" class="cover">
+                </picture>
+                <p class="name">Akali</p>
+            </li>
+            <li id="evelynn-selector" class="selector evelynn-selector">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="../static/images/evelynn-kda-mobile.jpg">
+                    <img src="../static/images/evelynn-kda.jpg" alt="Evelynn K/DA" class="cover">
+                </picture>
+                <p class="name">Evelynn</p>
+            </li>
+            <li id="kaisa-selector" class="selector kaisa-selector">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="../static/images/kaisa-kda-mobile.jpg">
+                    <img src="../static/images/kaisa-kda.jpg" alt="Kaisa K/DA" class="cover">
+                </picture>
+                <p class="name">Kaisa</p>
+            </li>
+            <li id="seraphine-selector" class="selector seraphine-selector">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="../static/images/seraphine-kda-mobile.jpg">
+                    <img src="../static/images/seraphine-kda.jpg" alt="Seraphine K/DA" class="cover">
+                </picture>
+                <p class="name">Seraphine</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Champion Pages -->
+    <!-- AHRI -->
+    <section class="page ahri">
+        <div class="champion-selector">
+            <ul>
+                <li class="selector ahri-selector selected"><img src="../static/images/ahri-kda-all-out-small.jpg" alt="Ahri K/DA" class="cover">Ahri</li>
+                <li class="selector akali-selector"><img src="../static/images/akali-kda-all-out-small.jpg" alt="Akali K/DA" class="cover">Akali</li>
+                <li class="selector evelynn-selector"><img src="../static/images/evelynn-kda-all-out-small.jpg" alt="Evelynn K/DA" class="cover">Evelynn</li>
+                <li class="selector kaisa-selector"><img src="../static/images/kaisa-kda-all-out-small.jpg" alt="Kaisa K/DA" class="cover">Kaisa</li>
+                <li class="selector seraphine-selector"><img src="../static/images/seraphine-kda-all-out-small.jpg" alt="Seraphine K/DA" class="cover">Seraphine</li>
+            </ul>
+        </div>
+        <div class="container viewer">
+            <!-- Chromas -->
+            <div class="chromas chromas-ahri">
+                <div class="chroma og og-ahri active-chroma"></div>
+                <div class="chroma ahriversary"></div>
+            </div>
+            <div class="switchers ahri-checkboxes"></div>
+        </div>
+        <div class="container data">
+            <div class="champion-info">
+                <h2 class="champion-nick">The nine-tailed fox</h2>
+                <h1 class="champion-name">Ahri</h1>
+                <p class="champion-desc">Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.</p>
+            </div>
+            <div class="skin-selector">
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="slides">
+                            <ul>
+                                <li class="skin ahri-base skin-active">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Ahri</p>
+                                </li>
+                                <li class="skin ahri-dinasty">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-dinasty-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Dinasty Ahri</p>
+                                </li>
+                                <li class="skin ahri-midnight">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-midnight-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Midnight Ahri</p>
+                                </li>
+                                <li class="skin ahri-foxfire">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-foxfire-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Foxfire Ahri</p>
+                                </li>
+                                <li class="skin ahri-popstar">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-popstar-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Popstar Ahri</p>
+                                </li>
+                                <li class="skin ahri-challenger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-challenger-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Challenger Ahri</p>
+                                </li>
+                                <li class="skin ahri-academy">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-academy-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Academy Ahri</p>
+                                </li>
+                                <li class="skin ahri-arcade">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-arcade-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Arcade Ahri</p>
+                                </li>
+                                <li class="skin ahri-star-guardian">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-star-guardian-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Star Guardian Ahri</p>
+                                </li>
+                                <li class="skin ahri-kda">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-kda-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">K/DA Ahri</p>
+                                </li>
+                                <li class="skin ahri-kda-prestige">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-kda-prestige-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">K/DA Prestige Ahri</p>
+                                </li>
+                                <li class="skin ahri-elderwood">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-elderwood-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Elderwood Ahri</p>
+                                </li>
+                                <li class="skin ahri-spirit-blossom">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-spirit-blossom-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Spirit Blossom Ahri</p>
+                                </li>
+                                <li class="skin ahri-kda-all-out">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-kda-all-out-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">K/DA All Out Ahri</p>
+                                </li>
+                                <li class="skin ahri-coven">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/ahri-coven-small.jpg" alt="Ahri" class="skin-img">
+                                    <p class="skin-name">Coven Ahri</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- AKALI -->
+    <section class="page akali">
+        <div class="champion-selector">
+            <ul>
+                <li class="selector ahri-selector"><img src="../static/images/ahri-kda-all-out-small.jpg" alt="Ahri K/DA" class="cover">Ahri</li>
+                <li class="selector akali-selector selected"><img src="../static/images/akali-kda-all-out-small.jpg" alt="Akali K/DA" class="cover">Akali</li>
+                <li class="selector evelynn-selector"><img src="../static/images/evelynn-kda-all-out-small.jpg" alt="Evelynn K/DA" class="cover">Evelynn</li>
+                <li class="selector kaisa-selector"><img src="../static/images/kaisa-kda-all-out-small.jpg" alt="Kaisa K/DA" class="cover">Kaisa</li>
+                <li class="selector seraphine-selector"><img src="../static/images/seraphine-kda-all-out-small.jpg" alt="Seraphine K/DA" class="cover">Seraphine</li>
+            </ul>
+        </div>
+        <div class="container viewer">
+            <!-- Chromas -->
+            <div class="chromas chromas-akali">
+                <div class="chroma og og-akali active-chroma"></div>
+            </div>
+            <div class="switchers akali-checkboxes"></div>
+        </div>
+        <div class="container data">
+            <div class="champion-info">
+                <h2 class="champion-nick">The rogue assasin</h2>
+                <h1 class="champion-name">Akali</h1>
+                <p class="champion-desc">Abandoning the Kinkou Order and her title of the Fist of Shadow, Akali now strikes alone, ready to be the deadly weapon her people need. Though she holds onto all she learned from her master Shen, she has pledged to defend Ionia from its enemies, one kill at a time. Akali may strike in silence, but her message will be heard loud and clear: fear the assassin with no master.</p>
+            </div>
+            <div class="skin-selector">
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="slides">
+                            <ul>
+                                <li class="skin akali-base skin-active">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Akali</p>
+                                </li>
+                                <li class="skin akali-stinger">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-stinger-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Stinger Akali</p>
+                                </li>
+                                <li class="skin akali-infernal">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-infernal-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Infernal Akali</p>
+                                </li>
+                                <li class="skin akali-all-star">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-all-star-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">All Star Akali</p>
+                                </li>
+                                <li class="skin akali-nurse">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-nurse-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Nurse Akali</p>
+                                </li>
+                                <li class="skin akali-blood-moon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-blood-moon-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Blood Moon Akali</p>
+                                </li>
+                                <li class="skin akali-silverfang">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-silverfang-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Silverfang Akali</p>
+                                </li>
+                                <li class="skin akali-headhunter">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-headhunter-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Headhunter Akali</p>
+                                </li>
+                                <li class="skin akali-sashimi">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-sashimi-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Sashimi Akali</p>
+                                </li>
+                                <li class="skin akali-kda">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-kda-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">K/DA Akali</p>
+                                </li>
+                                <li class="skin akali-kda-prestige">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-kda-prestige-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">K/DA Prestige Akali</p>
+                                </li>
+                                <li class="skin akali-project">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-project-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">PROJECT Akali</p>
+                                </li>
+                                <li class="skin akali-true-damage">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-true-damage-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">True Damage Akali</p>
+                                </li>
+                                <li class="skin akali-kda-all-out">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-kda-all-out-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">K/DA All Out Akali</p>
+                                </li>
+                                <li class="skin akali-crime-city-nightmare">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/akali-crime-city-nightmare-small.jpg" alt="Akali" class="skin-img">
+                                    <p class="skin-name">Crime City Nightmare Akali</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- EVELYNN -->
+    <section class="page evelynn">
+        <div class="champion-selector">
+            <ul>
+                <li class="selector ahri-selector"><img src="../static/images/ahri-kda-all-out-small.jpg" alt="Ahri K/DA" class="cover">Ahri</li>
+                <li class="selector akali-selector"><img src="../static/images/akali-kda-all-out-small.jpg" alt="Akali K/DA" class="cover">Akali</li>
+                <li class="selector evelynn-selector selected"><img src="../static/images/evelynn-kda-all-out-small.jpg" alt="Evelynn K/DA" class="cover">Evelynn</li>
+                <li class="selector kaisa-selector"><img src="../static/images/kaisa-kda-all-out-small.jpg" alt="Kaisa K/DA" class="cover">Kaisa</li>
+                <li class="selector seraphine-selector"><img src="../static/images/seraphine-kda-all-out-small.jpg" alt="Seraphine K/DA" class="cover">Seraphine</li>
+            </ul>
+        </div>
+        <div class="container viewer">
+            <!-- Chromas -->
+            <div class="chromas chromas-evelynn">
+                <div class="chroma og og-evelynn active-chroma"></div>
+            </div>
+            <div class="switchers evelynn-checkboxes"></div>
+        </div>
+        <div class="container data">
+            <div class="champion-info">
+                <h2 class="champion-nick">Agony's embrace</h2>
+                <h1 class="champion-name">Evelynn</h1>
+                <p class="champion-desc">Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn's true form is unleashed. She then subjects her victim to unspeakable torment, gratifying herself with their pain. To the demon, these liaisons are innocent flings. To the rest of Runeterra, they are ghoulish tales of lust gone awry and horrific reminders of the cost of wanton desire.</p>
+            </div>
+            <div class="skin-selector">
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="slides">
+                            <ul>
+                                <li class="skin evelynn-base skin-active">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-shadow">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-shadow-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">Shadow Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-masquerade">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-masquerade-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">Masquerade Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-tango">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-tango-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">Tango Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-safecracker">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-safecracker-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">Safecracker Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-blood-moon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-blood-moon-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">Blood Moon Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-kda">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-kda-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">K/DA Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-kda-prestige">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-kda-prestige-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">K/DA Prestige Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-sugar-rush">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-sugar-rush-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">Sugar Rush Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-kda-all-out">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-kda-all-out-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">K/DA All Out Evelynn</p>
+                                </li>
+                                <li class="skin evelynn-coven">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/evelynn-coven-small.jpg" alt="Evelynn" class="skin-img">
+                                    <p class="skin-name">Coven Evelynn</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- KAISA -->
+    <section class="page kaisa">
+        <div class="champion-selector">
+            <ul>
+                <li class="selector ahri-selector"><img src="../static/images/ahri-kda-all-out-small.jpg" alt="Ahri K/DA" class="cover">Ahri</li>
+                <li class="selector akali-selector"><img src="../static/images/akali-kda-all-out-small.jpg" alt="Akali K/DA" class="cover">Akali</li>
+                <li class="selector evelynn-selector"><img src="../static/images/evelynn-kda-all-out-small.jpg" alt="Evelynn K/DA" class="cover">Evelynn</li>
+                <li class="selector kaisa-selector selected"><img src="../static/images/kaisa-kda-all-out-small.jpg" alt="Kaisa K/DA" class="cover">Kaisa</li>
+                <li class="selector seraphine-selector"><img src="../static/images/seraphine-kda-all-out-small.jpg" alt="Seraphine K/DA" class="cover">Seraphine</li>
+            </ul>
+        </div>
+        <div class="container viewer">
+            <!-- Chromas -->
+            <div class="chromas chromas-kaisa">
+                <div class="chroma og og-kaisa active-chroma"></div>
+            </div>
+            <div class="switchers kaisa-checkboxes"></div>
+        </div>
+        <div class="container data">
+            <div class="champion-info">
+                <h2 class="champion-nick">Daughter of the void</h2>
+                <h1 class="champion-name">Kai'Sa</h1>
+                <p class="champion-desc">Claimed by the Void when she was only a child, Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered into an uneasy symbiosis with a living Void carapace, the time will soon come when she must decide whether to forgive those mortals who would call her a monster, and defeat the coming darkness together… or simply to forget, as the Void consumes the world that left her behind.</p>
+            </div>
+            <div class="skin-selector">
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="slides">
+                            <ul>
+                                <li class="skin kaisa-base skin-active">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">Kaisa</p>
+                                </li>
+                                <li class="skin kaisa-bullet-angel">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-bullet-angel-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">Bullet Angel Kaisa</p>
+                                </li>
+                                <li class="skin kaisa-kda">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-kda-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">K/DA Kaisa</p>
+                                </li>
+                                <li class="skin kaisa-kda-prestige">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-kda-prestige-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">K/DA Prestige Kaisa</p>
+                                </li>
+                                <li class="skin kaisa-ig">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-ig-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">iG Kaisa</p>
+                                </li>
+                                <li class="skin kaisa-arcade">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-arcade-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">Arcade Kaisa</p>
+                                </li>
+                                <li class="skin kaisa-kda-all-out">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-kda-all-out-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">K/DA All Out Kaisa</p>
+                                </li>
+                                <li class="skin kaisa-kda-all-out-prestige">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-kda-all-out-prestige-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">K/DA All Out Prestige Kaisa</p>
+                                </li>
+                                <li class="skin kaisa-lagoon-dragon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/kaisa-lagoon-dragon-small.jpg" alt="Kaisa" class="skin-img">
+                                    <p class="skin-name">Lagoon Dragon Kaisa</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- SERAPHINE -->
+    <section class="page seraphine">
+        <div class="champion-selector">
+            <ul>
+                <li class="selector ahri-selector"><img src="../static/images/ahri-kda-all-out-small.jpg" alt="Ahri K/DA" class="cover">Ahri</li>
+                <li class="selector akali-selector"><img src="../static/images/akali-kda-all-out-small.jpg" alt="Akali K/DA" class="cover">Akali</li>
+                <li class="selector evelynn-selector"><img src="../static/images/evelynn-kda-all-out-small.jpg" alt="Evelynn K/DA" class="cover">Evelynn</li>
+                <li class="selector kaisa-selector"><img src="../static/images/kaisa-kda-all-out-small.jpg" alt="Kaisa K/DA" class="cover">Kaisa</li>
+                <li class="selector seraphine-selector selected"><img src="../static/images/seraphine-kda-all-out-small.jpg" alt="Seraphine K/DA" class="cover">Seraphine</li>
+            </ul>
+        </div>
+        <div class="container viewer">
+            <!-- Chromas -->
+            <div class="chromas chromas-seraphine">
+                <div class="chroma og og-seraphine active-chroma"></div>
+            </div>
+            <div class="switchers seraphine-checkboxes"></div>
+        </div>
+        <div class="container data">
+            <div class="champion-info">
+                <h2 class="champion-nick">The starry-eyed songstress</h2>
+                <h1 class="champion-name">Seraphine</h1>
+                <p class="champion-desc">Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She performs for the sister cities to remind their citizens that they're not alone, that they're stronger together, and that, in her eyes, their potential is limitless.</p>
+            </div>
+            <div class="skin-selector">
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="slides">
+                            <ul>
+                                <li class="skin seraphine-base skin-active">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/seraphine-small.jpg" alt="Seraphine" class="skin-img">
+                                    <p class="skin-name">Seraphine</p>
+                                </li>
+                                <li class="skin seraphine-kda-all-out-indie">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/seraphine-kda-all-out-indie-small.jpg" alt="Seraphine" class="skin-img">
+                                    <p class="skin-name">K/DA All Out Indie Seraphine</p>
+                                </li>
+                                <li class="skin seraphine-kda-all-out-rising-star">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/seraphine-kda-all-out-rising-star-small.jpg" alt="Seraphine" class="skin-img">
+                                    <p class="skin-name">K/DA All Out Rising Star Seraphine</p>
+                                </li>
+                                <li class="skin seraphine-kda-all-out">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/seraphine-kda-all-out-small.jpg" alt="Seraphine" class="skin-img">
+                                    <p class="skin-name">K/DA All Out Superstar Seraphine</p>
+                                </li>
+                                <li class="skin seraphine-graceful-phoenix">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <img src="../static/images/seraphine-graceful-phoenix-small.jpg" alt="Seraphine" class="skin-img">
+                                    <p class="skin-name">Graceful Phoenix Seraphine</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- CANVAS  -->
+    <div class="main-canvas"><canvas class="webgl"></canvas></div>
+</body>
+</html>
